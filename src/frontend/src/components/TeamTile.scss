@@ -1,0 +1,11 @@
+.team-tile {
+  height: 80px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
+
+  :hover {
+    color: lightgreen;
+  }
+}

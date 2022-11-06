@@ -1,0 +1,42 @@
+.MatchPage {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 20px;
+
+  .year-selector {
+    justify-self: end;
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  button {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 60px;
+  }
+  .page-heading {
+    margin: 20px;
+  }
+  .button-name {
+    color: black;
+  }
+
+  .no-matches {
+    height: 300px;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+
+    .message {
+      position: absolute;
+      left: 55%;
+      top: 40%;
+      transform: translate(-50%, -50%);
+      border: 1px solid #ffff00;
+      padding: 10px;
+    }
+  }
+}
